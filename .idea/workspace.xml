@@ -23,7 +23,7 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/java/CucumberExample/CukeRunner" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java/CucumberExample/CukeRunner/CucumberRunner/CucumberRunner.java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Fall2019OnlineCucumberSelenium-master" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
@@ -91,6 +91,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CucumberRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="readyFramework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="CucumberExample.CukeRunner.CucumberRunner.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="CucumberExample.CukeRunner.CucumberRunner" />
+      <option name="MAIN_CLASS_NAME" value="CucumberExample.CukeRunner.CucumberRunner.CucumberRunner" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Login.LoginEmptyEmailTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="readyFramework" />
       <extension name="coverage">
@@ -126,6 +141,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Cucumber java.Scenario: Verification of Reset button" />
+        <item itemvalue="JUnit.CucumberRunner" />
         <item itemvalue="JUnit.Login.LoginEmptyEmailTest (1)" />
         <item itemvalue="JUnit.Login.LoginEmptyEmailTest" />
         <item itemvalue="Cucumber java.Scenario: Login as sales manager and verify that title is Dashboard" />
