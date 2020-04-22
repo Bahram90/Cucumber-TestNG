@@ -11,8 +11,10 @@ import org.junit.runner.RunWith;
         strict = false,
         tags = "",
         plugin = {
-                "html:target/default-report",
-                "json:target/cucumber1.json"
+        "pretty",
+                "html:target/cucumber-html-report",
+                "json:target/cucumber.json",
+                "pretty", "html:target/Destination"
         })
 public class CucumberRunner {
 }

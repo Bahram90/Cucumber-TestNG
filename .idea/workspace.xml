@@ -23,7 +23,7 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/java/CucumberExample/CukeRunner" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java/CucumberExample/CukeRunner/StepDefUI" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java/CucumberExample/CukeRunner/CucumberRunner/CucumberRunner.java" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
@@ -150,7 +150,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
