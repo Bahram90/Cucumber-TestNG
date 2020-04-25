@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ca78ecf4-cf42-4cba-acc9-459555b0fa0a" name="Default Changelist" comment="" />
+    <list default="true" id="ca78ecf4-cf42-4cba-acc9-459555b0fa0a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/JavaPrac/chapter2/GrossPayCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/JavaPrac/chapter3/GradeMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/JavaPrac/chapter3/LoanQualifier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/JavaPrac/chapter3/LogicalOperatorLoanQualifier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/JavaPrac/chapter3/QuotaCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/JavaPrac/chapter3/SalaryCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/JavaPrac/chapter3/TestResults.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/JavaPrac/chapter4/GrossPayInputValidation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/CucumberExample/CukeRunner/CucumberRunner/CucumberRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/CucumberExample/CukeRunner/CucumberRunner/CucumberRunner.class" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,7 +35,7 @@
   <component name="PropertiesComponent">
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/java/CucumberExample/CukeRunner" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Fall2019OnlineCucumberSelenium-master" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -52,19 +63,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Cucumber java.Scenario: Verification of Reset button">
-    <configuration name="Scenario: Login as sales manager and verify that title is Dashboard" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="4" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/Features/Login.feature" />
-      <option name="GLUE" value="StepDefUI" />
-      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+  <component name="RunManager" selected="Application.GrossPayInputValidation">
+    <configuration name="GradeMessage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaPrac.chapter3.GradeMessage" />
       <module name="readyFramework" />
-      <option name="NAME_FILTER" value="^Login as sales manager and verify that title is Dashboard$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm4SMFormatter --name &quot;^Login as sales manager and verify that title is Dashboard$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Login as sales manager and verify that title is Dashboard" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="PATTERN" value="JavaPrac.chapter3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -72,18 +77,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Verification of Reset button" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="4" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/Features/Login.feature" />
-      <option name="GLUE" value="Steps.UI" />
-      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+    <configuration name="GrossPayInputValidation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaPrac.chapter4.GrossPayInputValidation" />
       <module name="readyFramework" />
-      <option name="NAME_FILTER" value="^Verification of Reset button$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm4SMFormatter --name &quot;^Verification of Reset button$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Verification of Reset button" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="PATTERN" value="JavaPrac.chapter4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -91,60 +90,52 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CucumberRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LoanQualifier" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaPrac.chapter3.LoanQualifier" />
       <module name="readyFramework" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="CucumberExample.CukeRunner.CucumberRunner.*" />
+          <option name="PATTERN" value="JavaPrac.chapter3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="CucumberExample.CukeRunner.CucumberRunner" />
-      <option name="MAIN_CLASS_NAME" value="CucumberExample.CukeRunner.CucumberRunner.CucumberRunner" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Login.LoginEmptyEmailTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="QuotaCalculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaPrac.chapter3.QuotaCalculator" />
       <module name="readyFramework" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="testNG.Run.*" />
+          <option name="PATTERN" value="JavaPrac.chapter3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="testNG.Run" />
-      <option name="MAIN_CLASS_NAME" value="testNG.Run.Login" />
-      <option name="METHOD_NAME" value="LoginEmptyEmailTest" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Login.LoginEmptyEmailTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestResults" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaPrac.chapter3.TestResults" />
       <module name="readyFramework" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="testNGPractice.Pages.Run.*" />
+          <option name="PATTERN" value="JavaPrac.chapter3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="testNGPractice.Pages.Run" />
-      <option name="MAIN_CLASS_NAME" value="testNGPractice.Pages.Run.Login" />
-      <option name="METHOD_NAME" value="LoginEmptyEmailTest" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber java.Scenario: Verification of Reset button" />
-        <item itemvalue="JUnit.CucumberRunner" />
-        <item itemvalue="JUnit.Login.LoginEmptyEmailTest (1)" />
-        <item itemvalue="JUnit.Login.LoginEmptyEmailTest" />
-        <item itemvalue="Cucumber java.Scenario: Login as sales manager and verify that title is Dashboard" />
+        <item itemvalue="Application.GrossPayInputValidation" />
+        <item itemvalue="Application.GradeMessage" />
+        <item itemvalue="Application.TestResults" />
+        <item itemvalue="Application.LoanQualifier" />
+        <item itemvalue="Application.QuotaCalculator" />
       </list>
     </recent_temporary>
   </component>
@@ -160,6 +151,9 @@
       <updated>1587343895561</updated>
     </task>
     <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.js" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
