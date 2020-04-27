@@ -2,16 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ca78ecf4-cf42-4cba-acc9-459555b0fa0a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/JavaPrac/chapter2/GrossPayCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/JavaPrac/chapter3/GradeMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/JavaPrac/chapter3/LoanQualifier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/JavaPrac/chapter3/LogicalOperatorLoanQualifier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/JavaPrac/chapter3/QuotaCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/JavaPrac/chapter3/SalaryCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/JavaPrac/chapter3/TestResults.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/JavaPrac/chapter4/GrossPayInputValidation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/META-INF/readyFramework.kotlin_module" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/CucumberExample/CukeRunner/CucumberRunner/CucumberRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/CucumberExample/CukeRunner/CucumberRunner/CucumberRunner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CucumberExample/CukeRunner/Page/LoginP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CucumberExample/CukeRunner/Page/LoginP.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Steps/UI/LoginStepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Steps/UI/LoginStepDefinitions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/Features/Login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Features/Login.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/CucumberExample/CukeRunner/Page/LoginP.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/CucumberExample/CukeRunner/Page/LoginP.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Features/Login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Features/Login.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Steps/UI/LoginStepDefinitions.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Steps/UI/LoginStepDefinitions.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -63,7 +61,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.GrossPayInputValidation">
+  <component name="RunManager" selected="Cucumber java.Scenario: Verification of Reset button">
     <configuration name="GradeMessage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="JavaPrac.chapter3.GradeMessage" />
       <module name="readyFramework" />
@@ -103,19 +101,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QuotaCalculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaPrac.chapter3.QuotaCalculator" />
-      <module name="readyFramework" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="JavaPrac.chapter3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TestResults" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="JavaPrac.chapter3.TestResults" />
       <module name="readyFramework" />
@@ -129,13 +114,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Scenario: Verification of Reset button" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="4" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/Features/Login.feature" />
+      <option name="GLUE" value="Steps.UI" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="readyFramework" />
+      <option name="NAME_FILTER" value="^Verification of Reset button$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm4SMFormatter --name &quot;^Verification of Reset button$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Verification of Reset button" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber java.Scenario: Verification of Reset button" />
         <item itemvalue="Application.GrossPayInputValidation" />
         <item itemvalue="Application.GradeMessage" />
         <item itemvalue="Application.TestResults" />
         <item itemvalue="Application.LoanQualifier" />
-        <item itemvalue="Application.QuotaCalculator" />
       </list>
     </recent_temporary>
   </component>

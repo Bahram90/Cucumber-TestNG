@@ -30,7 +30,6 @@ public class LoginP extends AbstractPageBase {
 //        amazonSearch.sendKeys(value);
         foxUI.enterText(amazonSearch,value+ Keys.ENTER);
 
-
     }
 
 }
