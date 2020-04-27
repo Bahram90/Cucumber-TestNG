@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ca78ecf4-cf42-4cba-acc9-459555b0fa0a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/target/test-classes/META-INF/readyFramework.kotlin_module" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/CucumberExample/CukeRunner/Page/LoginP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CucumberExample/CukeRunner/Page/LoginP.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Steps/UI/LoginStepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Steps/UI/LoginStepDefinitions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/Features/Login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Features/Login.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/CucumberExample/CukeRunner/Page/LoginP.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/CucumberExample/CukeRunner/Page/LoginP.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Features/Login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Features/Login.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Steps/UI/LoginStepDefinitions.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Steps/UI/LoginStepDefinitions.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
