@@ -43,6 +43,9 @@ public class LoginStepDefinitions {
     @When("As a user I want to search phone (.*) and methodName (.*)")
     public void asAUserIWantToSearchPhonePhoneModelAndMethodName (String value, String methodName) throws Exception {
 
+//Java Reflection:
+//        for more info https://www.geeksforgeeks.org/reflection-in-java/
+/*t's all in the Javadoc. getMethods: "Returns an array containing Method objects reflecting all the public methods of the class or interface represented by this Class object, including those declared by the class or interface and those inherited from superclasses and superinterfaces." getDeclaredMethods: "Returns an array containing Method objects reflecting all the declared methods of the class or interface represented by this Class object, including public, protected, default (package) access, and private methods, but excluding inherited methods.*/
         LoginP loginP = new LoginP();
         Class<?> cls = loginP.getClass();
 //        Method method = cls.getMethod(methodName, String.class);
