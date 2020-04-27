@@ -10,11 +10,12 @@ import io.cucumber.java.en.When;
 import utilities.ConfigurationReader;
 import utilities.Driver;
 
+import java.lang.reflect.Method;
 
 
 public class LoginStepDefinitions {
 
-    LoginP loginP = new LoginP();
+//    LoginP loginP = new LoginP();
 
 
     @Given("^launch the application$")
@@ -39,10 +40,15 @@ public class LoginStepDefinitions {
         System.out.println("This step click on the Reset button.");
     }
 
-    @When("As a user I want to search phone (.*)")
-    public void asAUserIWantToSearchPhonePhoneModel(String value) throws Exception {
+    @When("As a user I want to search phone (.*) and methodName (.*)")
+    public void asAUserIWantToSearchPhonePhoneModelAndMethodName (String value, String methodName) throws Exception {
 
-        loginP.searchItem(value);
+        LoginP loginP = new LoginP();
+        Class<?> cls = loginP.getClass();
+//        Method method = cls.getMethod(methodName, String.class);
+        Method method = cls.getDeclaredMethod(methodName, String.class);
+        method.invoke(loginP,value);
+//        loginP.searchItem(value);
         Driver.closeDriver();
     }
 }
